@@ -22,3 +22,7 @@ BTW，当中focusAndBlur的定义与此建议财务管理系统主要操作无�
 * 表event下有字段fid（每个财务记录的id）、uid（产生该记录的用户id）、money（该记录的涉及金额）、time1（录入记录时的详细时间，用在取出记录时的排序，及方便仔细查阅）、time2（只记录日期，用作前段的按日期分出表格）、info（该记录的相关事宜）。
 * 表staff下有字段uid（用户唯一id）、nickname（用户昵称）、regtime（用户注册时间）。
 * 表total下有total（每次记录都进行一次结算）、time1（参见event表）、time2（参见event表）、fid（产生该total记录的在event表对应的记录）
+
+## License
+
+The code is released under [MIT License](./LICENSE).
